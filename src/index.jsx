@@ -399,7 +399,7 @@ export default function GaribookEIDDashboard() {
               <button
                 onClick={() => setAutoRefresh((p) => !p)}
                 style={{
-                  padding: "4px 10px", borderRadius: 6, border: "none", fontSize: 10, fontWeight: 700, cursor: "pointer",
+                  padding: "4px 10px", borderRadius: 6,  fontSize: 10, fontWeight: 700, cursor: "pointer",
                   background: autoRefresh ? "#22c55e22" : "rgba(255,255,255,0.05)",
                   color: autoRefresh ? "#22c55e" : "#64748b",
                   border: `1px solid ${autoRefresh ? "#22c55e44" : BORDER}`,
